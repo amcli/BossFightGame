@@ -1,0 +1,18 @@
+{
+    "name": "Game.Bosses",
+    "rootNamespace": "Game.Bosses",
+    "references": [
+        "Game.Core",
+        "Game.Data",
+        "Game.Combat"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
