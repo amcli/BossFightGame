@@ -8,7 +8,7 @@
 - `BossDefinition.cs` — boss prefab reference, arena prefab, music, intro dialogue, reward table.
 - `RewardDefinition.cs` — single drop entry (item, weight, rarity).
 - `LoadoutDefinition.cs` — starting loadout presets.
-- Shared enums: `DamageType`, `Rarity`, `WeaponClass`.
+- Shared enums: `DamageType`, `Rarity`, `WeaponClass`, `WeaponType`
 
 ## Hard rule
 **Never mutate a ScriptableObject at runtime.** In the editor, changes persist between play sessions and create reproducible-only-sometimes bugs. Definitions are read-only blueprints. Mutable runtime state lives in `*Instance` plain C# classes in their respective asmdefs (e.g. `WeaponInstance` in `Combat` or `Player`).

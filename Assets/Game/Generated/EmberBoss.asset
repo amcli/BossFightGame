@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0da2a660edc1de489c14eb6aa8cde34, type: 3}
+  m_Name: EmberBoss
+  m_EditorClassIdentifier: Game.Data::Game.Data.BossDefinition
+  bossId: ember
+  displayName: Ember, the Cinder Fiend
+  description: A roiling elemental of living fire.
+  icon: {fileID: 0}
+  bodySprite: {fileID: 21300000, guid: b2cd1bddd15d1dc4aaf88ebba37285a1, type: 3}
+  baseStats:
+    maxHP: 200
+    defense: 5
+    resistance: 5
+    attack: 15
+    intelligence: 10
+    moveSpeed: 0
+    maxEnergy: 0
+  contactDamage: 8
+  attackDamage: 10
+  attackInterval: 1.8
+  projectileSpeed: 5
+  projectileLifetime: 4
+  rewards:
+  - {fileID: 11400000, guid: 4d70b9d012c59bb4b8fd123f064c247d, type: 2}
