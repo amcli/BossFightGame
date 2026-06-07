@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6aeef4107fe3464c8a14f506428b6dc, type: 3}
+  m_Name: KnightClass
+  m_EditorClassIdentifier: Game.Data::Game.Data.CharacterClassDefinition
+  displayName: Knight
+  description: Sturdy melee fighter.
+  icon: {fileID: 21300000, guid: 008a136ae3e33494f90a220a696d3181, type: 3}
+  baseStats:
+    maxHP: 120
+    defense: 8
+    resistance: 4
+    attack: 20
+    intelligence: 0
+    moveSpeed: 10
+    maxEnergy: 100
+  energyTriggers: []
+  basicAbility: {fileID: 0}
+  ultimateAbility: {fileID: 0}
